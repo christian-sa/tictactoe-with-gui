@@ -2,6 +2,7 @@
 
 I expanded my [previous](https://github.com/christian-sa/tictactoe-with-minimax) Tic-Tac-Toe 
 game by revamping how the game is played: It now features a GUI I created with JavaFX.
+Additionally most of the styling was done with CSS.
 
 ### To do:
 - Implement Console Log feature in the application to look at past events
@@ -10,4 +11,4 @@ game by revamping how the game is played: It now features a GUI I created with J
 - Package files in .jar and wrap in .exe for ease of use
 
 ### Example:
-![GUI Example](src/ressources/img/ui_example.png)
+![GUI Example](https://github.com/christian-sa/tictactoe-with-gui/blob/main/src/resources/img/ui_example.png)
