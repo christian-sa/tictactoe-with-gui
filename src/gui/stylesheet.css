@@ -1,0 +1,97 @@
+/*
+  Stylesheet for Tic Tac Toe game
+ */
+
+
+/*********** Fonts ***********/
+
+@font-face {
+    font-family: 'Futura MdCn BT';
+    src: url("../resources/fonts/FuturaMed.ttf");
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url("../resources/fonts/FuturaHeavy.ttf");
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url("../resources/fonts/FuturaBold.ttf");
+}
+
+/*********** Tile ***********/
+
+.tile {
+    -fx-font-family: 'Futura Hv BT';
+    -fx-font-size: 150;
+    -fx-padding: 0 0 0 0;
+    -fx-text-alignment: center;
+}
+
+.tile:hover {
+    -fx-font-size: 155;
+}
+
+.tile, .tile:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0;
+}
+
+/*********** Game Over Alert ***********/
+
+.gameOverAlertBox .content {
+    -fx-font-family: "Futura MdCn BT";
+    -fx-font-size: 30;
+    -fx-padding: 45 0 0 40;
+}
+
+.gameOverAlertBox .graphic-container {
+    -fx-padding: 15 0 0 15;
+}
+
+.gameOverAlertBox .button {
+    -fx-font-family: "Futura MdCn BT";
+    -fx-font-size: 20;
+    -fx-background-radius: 20;
+}
+
+.gameOverAlertBox .button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 20;
+}
+
+/*********** TOP MENU ***********/
+.menu-bar {
+    -fx-font-family: "Futura MdCn BT";
+    -fx-font-size: 22;
+}
+
+.restartButton, .restartButton:focused {
+    -fx-font-family: "Futura MdCn BT";
+    -fx-font-size: 22;
+    -fx-padding: 5 15 5 15;
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0;
+}
+
+.restartButton:hover {
+    -fx-background-color: #0096c9, #0096c9, #0096c9;
+    -fx-text-fill: white;
+}
+
+/*********** STATUS ***********/
+.status {
+    -fx-font-family: "Futura Hv BT";
+    -fx-font-size: 20;
+}
+
+.statusBox {
+    -fx-padding: 0 0 8 0;
+}
+
+
+
