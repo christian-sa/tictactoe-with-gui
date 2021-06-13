@@ -9,5 +9,9 @@ game by revamping how the game is played: It now features a GUI I created with J
 - Improve documentation, add more comments  
 - Package files in .jar and wrap in .exe for ease of use
 
-### Example:
+### Example Pic:
 ![GUI Example](src/ressources/img/ui_example.png)
+
+### Demo:
+![GUI Demo](src/ressources/img/demo.gif)
+
