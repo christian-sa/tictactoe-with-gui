@@ -10,9 +10,6 @@ It now features a GUI created using JavaFX & CSS.
 - Improve documentation, add more comments  
 - Package files in .jar and wrap in .exe for ease of use
 
-### Example Pic:
-![GUI Example](src/ressources/img/ui_example.png)
-
 ### Demo:
-![GUI Demo](src/ressources/img/demo.gif)
+![GUI Demo](https://github.com/christian-sa/tictactoe-with-gui/blob/main/src/resources/img/demo.gif)
 
